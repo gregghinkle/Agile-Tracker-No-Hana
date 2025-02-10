@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGILE_TRK_DATA_VAL_ABS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Data Validation for Agile Tracker DAO Abstract Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_DATA_VAL_OBJ_SET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check if the data validation object has been set</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DATA_CHECKS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Validation checks for persistant actions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_DAO_OBJ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sets the DAO object to be used in validation checks</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_DATA_CHECKS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sets the data checks object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_RECORD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sets the record to be validated</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALIDATE_DELETE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Validate prior to delete</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALIDATE_INSERT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Validate prior to insert</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALIDATE_UPDATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Validate prior to update</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DATA_CHECKS</CMPNAME>
+     <SCONAME>IO_DATA_CHECKS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Validation checks for persistant actions</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

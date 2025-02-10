@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_AGILE_TRK_DAO_PROJECT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Project Data Access Object Interface for Agile Tracker Appl</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_PROJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new record into the project table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_PROJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete existing record in the project table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_ALL_PROJECTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and return all projects from the project table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_MAX_PROJECT_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and return maximum project ID from the project table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_PROJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and return record from the project table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_PROJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update existing record in the project table</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PROJECT</CMPNAME>
+     <SCONAME>IS_AGL_PROJECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_PROJECT</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_ALL_PROJECTS</CMPNAME>
+     <SCONAME>ET_AGL_PROJ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project Table Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MAX_PROJECT_ID</CMPNAME>
+     <SCONAME>RV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_PROJECT</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_PROJECT</CMPNAME>
+     <SCONAME>RS_AGL_PROJ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_PROJECT</CMPNAME>
+     <SCONAME>IS_AGL_PROJECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

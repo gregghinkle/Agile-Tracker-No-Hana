@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_AGILE_TRK_DAO_SPRTEAM</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Sprt Team Data Access Object Interface for Agile Tracker App</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_SPRINT_TEAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new record into the sprint team table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_SPRINT_TEAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete existing record in the sprint team table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_ALL_SPRINT_TEAMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and return all records from the sprint team table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_MAX_SPRINT_TEAM_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and return maximum sprttm ID from the sprttm table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_SPRINT_TEAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and return record from the sprint team table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_SPRINT_TEAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update existing record in the sprint team table</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SPRINT_TEAM</CMPNAME>
+     <SCONAME>IS_AGL_SPRTTM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_SPRINT_TEAM</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_ALL_SPRINT_TEAMS</CMPNAME>
+     <SCONAME>ET_AGL_SPRTTM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team Table Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MAX_SPRINT_TEAM_ID</CMPNAME>
+     <SCONAME>RV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SPRINT_TEAM</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SPRINT_TEAM</CMPNAME>
+     <SCONAME>RS_AGL_SPRTEAM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_SPRINT_TEAM</CMPNAME>
+     <SCONAME>IS_AGL_SPRTTM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

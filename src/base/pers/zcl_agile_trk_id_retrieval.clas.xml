@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGILE_TRK_ID_RETRIEVAL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Retrieve ID number for Agile Tracker Application</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>The error message did not contain the expected value.</ENTRY>
+     <LENGTH>83</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>An exception should have been raised but was not</ENTRY>
+     <LENGTH>73</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>An exception was raised but should not have been</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>The next person ID retrieved was not the value that was expected</ENTRY>
+     <LENGTH>99</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>The next project ID retrieved was not the value that was expected</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>The next sprint team ID retrieved was not the value that was expected</ENTRY>
+     <LENGTH>104</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>The next sprint number retrieved was not the value that was expected</ENTRY>
+     <LENGTH>103</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DAO_PERSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Person Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DAO_PROJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Project Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DAO_SPRINT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sprint DAO Interface for Example Agile App</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALIDATE_SPRINT_NUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Validate the the parameters used for next sprint number</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_SPRINT_NUM</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_SPRINT_NUM</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGILE_TRK_PERSONA</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Persona Domain Model for Agile Tracker Application</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Unit Test aborted due to test record already existing in Persona table</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>The returning reference variable is not bound to an object as expected</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>The error message did not contain the expected value.</ENTRY>
+     <LENGTH>83</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>An exception was raised but should not have been</ENTRY>
+     <LENGTH>73</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>An exception should have been raised but was not</ENTRY>
+     <LENGTH>73</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>The expected value does not match the actual value</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_PERSONA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create a new Persona return the object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieve an instance of the Persona object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PERSONA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the persona record for the instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DAO_PERSONA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Persona Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_AGL_PERSONA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Persona</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_PERSONA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update an existing Persona</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_DAO_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Persona Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IS_AGL_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Persona</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PERSONA</CMPNAME>
+     <SCONAME>IV_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Persona</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PERSONA</CMPNAME>
+     <SCONAME>IV_PERSONA_DESC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Persona Description</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PERSONA</CMPNAME>
+     <SCONAME>RO_OBJECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Persona Domain Model for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Persona</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_OBJECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Persona Domain Model for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PERSONA</CMPNAME>
+     <SCONAME>RS_AGL_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Persona</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_PERSONA</CMPNAME>
+     <SCONAME>IV_PERSONA_DESC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Persona Description</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGILE_TRK_PERS_FACTORY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Data Validation Factory</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>The error message did not contain the expected value.</ENTRY>
+     <LENGTH>83</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>An exception should have been raised but was not</ENTRY>
+     <LENGTH>73</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>An exception was raised but should not have been</ENTRY>
+     <LENGTH>73</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>An object should have been bound to the returning data reference but was not</ENTRY>
+     <LENGTH>106</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>An attribute interface record should have been found but wasn&apos;t</ENTRY>
+     <LENGTH>98</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>The result did not contain the expected value.</ENTRY>
+     <LENGTH>71</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DETERMINE_TABLENAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determine the name of the table to validate</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ATTR_INTF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return name and type of all attr that are typed as interface</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_VALIDATION_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return an instance of the data validation object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_CLS_SELECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Class and Interface Selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PERSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Person Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PERSONA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Persona Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PROJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Project Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SPRINT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sprint DAO Interface for Example Agile App</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_DAO_PERSON</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Person Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_DAO_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Persona Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_DAO_PROJECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Project Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_DAO_SPRINT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sprint DAO Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DETERMINE_TABLENAME</CMPNAME>
+     <SCONAME>RV_TABLE_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VALIDATION_INSTANCE</CMPNAME>
+     <SCONAME>RO_DATA_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Validation for DAO classes interface</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_REQ_DAO_OBJ</CMPNAME>
+     <SCONAME>IO_DATA_VAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Validation for DAO Abstract Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_REQ_DAO_OBJ</CMPNAME>
+     <SCONAME>IV_CLASS_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reference type</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

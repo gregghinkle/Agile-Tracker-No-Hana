@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGILE_TRK_PERS_UTIL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Persistant Utility Class for Agile Tracker Application</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>The dynamic where clause did not contain the expected value.</ENTRY>
+     <LENGTH>95</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>The where clause contained a value but should not have.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>The expected value does not match the actual value</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_FIELD_TO_WHERE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add new field to a dynamic where clause</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DETERMINE_DAO_INTF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determine the interface for the DAO object</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_FIELD_TO_WHERE</CMPNAME>
+     <SCONAME>IV_FIELD</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_FIELD_TO_WHERE</CMPNAME>
+     <SCONAME>IV_OPERATOR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>IS-H: General Field with Length 2, for Function Modules</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

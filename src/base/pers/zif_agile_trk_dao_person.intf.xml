@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_AGILE_TRK_DAO_PERSON</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Person Data Access Object Interface for Agile Tracker Appl</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_PERSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new record into the person table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_PERSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete existing record in the person table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_MAX_PERSON_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and return maximum person ID from the person table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_PERSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and return record from the person table by person ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_PERSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update existing record in the person table</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PERSON</CMPNAME>
+     <SCONAME>IS_AGL_PERSON</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Person</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_PERSON</CMPNAME>
+     <SCONAME>IV_PERSON_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Person ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MAX_PERSON_ID</CMPNAME>
+     <SCONAME>RV_PERSON_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Person ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_PERSON</CMPNAME>
+     <SCONAME>IV_PERSON_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Person ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_PERSON</CMPNAME>
+     <SCONAME>RS_PERSON</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Person</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_PERSON</CMPNAME>
+     <SCONAME>IS_AGL_PERSON</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Person</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

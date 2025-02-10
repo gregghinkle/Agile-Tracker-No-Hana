@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_AGILE_TRK_DAO_SPRTPER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Sprint Team Persona DAO Interface for Agile Tracker Appl</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_SPRINT_TEAM_PERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new record into the sprint team persona table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_SPRINT_TEAM_PERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete existing record in the sprint team persona table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_SPRINT_TEAM_PERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and return record from the sprint team persona table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_SPRINT_TEAM_PERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update existing record into the sprint team persona table</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SPRINT_TEAM_PERS</CMPNAME>
+     <SCONAME>IS_AGL_SPRPER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Aglie Sprint Team Personas</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_SPRINT_TEAM_PERS</CMPNAME>
+     <SCONAME>IV_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Persona</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_SPRINT_TEAM_PERS</CMPNAME>
+     <SCONAME>IV_PERSON_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Person ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_SPRINT_TEAM_PERS</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SPRINT_TEAM_PERS</CMPNAME>
+     <SCONAME>IV_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Persona</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SPRINT_TEAM_PERS</CMPNAME>
+     <SCONAME>IV_PERSON_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Person ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SPRINT_TEAM_PERS</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SPRINT_TEAM_PERS</CMPNAME>
+     <SCONAME>RS_AGL_SPRTPER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Aglie Sprint Team Personas</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_SPRINT_TEAM_PERS</CMPNAME>
+     <SCONAME>IS_AGL_SPRPER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Aglie Sprint Team Personas</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

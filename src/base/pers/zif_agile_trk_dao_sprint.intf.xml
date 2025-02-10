@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_AGILE_TRK_DAO_SPRINT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Sprint DAO Interface for Agile Tracker Appl</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_SPRINT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new record into the sprint table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_SPRINT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete existing record in the project table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_MAX_SPRINT_NUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and return maximum sprint number from the sprint table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_SPRINT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read and return record from the sprint table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_SPRINT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update existing record into the sprint table</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SPRINT</CMPNAME>
+     <SCONAME>IS_AGL_SPRINT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_SPRINT</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_SPRINT</CMPNAME>
+     <SCONAME>IV_SPRINT_NUMBER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_SPRINT</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MAX_SPRINT_NUM</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MAX_SPRINT_NUM</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MAX_SPRINT_NUM</CMPNAME>
+     <SCONAME>RV_SPRINT_NUMBER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SPRINT</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SPRINT</CMPNAME>
+     <SCONAME>IV_SPRINT_NUMBER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SPRINT</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SPRINT</CMPNAME>
+     <SCONAME>RS_AGL_SPRINT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_SPRINT</CMPNAME>
+     <SCONAME>IS_AGL_SPRINT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

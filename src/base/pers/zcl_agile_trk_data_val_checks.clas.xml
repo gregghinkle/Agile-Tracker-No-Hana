@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGILE_TRK_DATA_VAL_CHECKS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Data Validation checks for persistant actions</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>The error message did not contain the expected value.</ENTRY>
+     <LENGTH>81</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>An exception should have been raised but was not</ENTRY>
+     <LENGTH>73</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>An exception was raised but should not have been</ENTRY>
+     <LENGTH>73</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_PERSONA_REC_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the persona record exists based on key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_PERSONA_REC_NOT_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the persona record does not exist based on key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_PERSON_REC_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the person record exists based on key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_PERSON_REC_NOT_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the person record does not exist based on key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_PROJECT_REC_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the project record exists based on key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_PROJECT_REC_NOT_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the project record does not exist based on key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_SPRINT_REC_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the sprint record exists based on key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_SPRINT_REC_NOT_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the sprint record does not exist based on key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_SPRTEAM_REC_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the sprint team record exists based on key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_SPRTEAM_REC_NOT_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the sprint team record does not exist based on key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_SPRTPER_REC_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the sprint team persona record exisits based on key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_SPRTPER_REC_NOT_EXISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Verify the sprint team persona record doesn&apos;t exist on key</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PERSONA_REC_EXISTS</CMPNAME>
+     <SCONAME>IO_DAO_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Persona Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PERSONA_REC_EXISTS</CMPNAME>
+     <SCONAME>IV_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Persona</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PERSONA_REC_NOT_EXISTS</CMPNAME>
+     <SCONAME>IO_DAO_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Persona Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PERSONA_REC_NOT_EXISTS</CMPNAME>
+     <SCONAME>IV_PERSONA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Persona</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PERSON_REC_EXISTS</CMPNAME>
+     <SCONAME>IO_DAO_PERSON</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Person Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PERSON_REC_EXISTS</CMPNAME>
+     <SCONAME>IV_PERSON_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Person ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PERSON_REC_NOT_EXISTS</CMPNAME>
+     <SCONAME>IO_DAO_PERSON</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Person Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PERSON_REC_NOT_EXISTS</CMPNAME>
+     <SCONAME>IV_PERSON_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Person ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PROJECT_REC_EXISTS</CMPNAME>
+     <SCONAME>IO_DAO_PROJECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Project Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PROJECT_REC_EXISTS</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PROJECT_REC_NOT_EXISTS</CMPNAME>
+     <SCONAME>IO_DAO_PROJECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Project Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_PROJECT_REC_NOT_EXISTS</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_SPRINT_REC_EXISTS</CMPNAME>
+     <SCONAME>IO_DAO_SPRINT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sprint DAO Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_SPRINT_REC_EXISTS</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_SPRINT_REC_EXISTS</CMPNAME>
+     <SCONAME>IV_SPRINT_NUMBER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_SPRINT_REC_EXISTS</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_SPRINT_REC_NOT_EXISTS</CMPNAME>
+     <SCONAME>IO_DAO_SPRINT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sprint DAO Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_SPRINT_REC_NOT_EXISTS</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_SPRINT_REC_NOT_EXISTS</CMPNAME>
+     <SCONAME>IV_SPRINT_NUMBER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VERIFY_SPRINT_REC_NOT_EXISTS</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZAGL_TRK_DAO_DFLT_CLASS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZAGL_TRK_DAO_DFLT_CLASS</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>17</SCRLEN3>
+    <DDTEXT>Agile Tracker DAO Default Class Name</DDTEXT>
+    <REPTEXT>DAO Default Class</REPTEXT>
+    <SCRTEXT_S>DAO Class</SCRTEXT_S>
+    <SCRTEXT_M>DAO Default Class</SCRTEXT_M>
+    <SCRTEXT_L>DAO Default Class</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

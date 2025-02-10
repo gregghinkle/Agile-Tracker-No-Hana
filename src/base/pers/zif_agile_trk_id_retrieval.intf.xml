@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_AGILE_TRK_ID_RETRIEVAL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Retrieve ID number interface for Agile Tracker Appl</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_NEXT_PERSON_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieve the next unused Person ID value</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_NEXT_PROJECT_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieve the next unused Project ID value</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_NEXT_SPRINT_NUMBER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieve the next sprint number for a Project / Sprint Team</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_NEXT_SPRINT_TEAM_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieve the next unused Sprint Team ID value</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_DAO_OBJ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set the DAO object reference object</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEXT_PERSON_ID</CMPNAME>
+     <SCONAME>RV_PERSON_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Person ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEXT_PROJECT_ID</CMPNAME>
+     <SCONAME>RV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEXT_SPRINT_NUMBER</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEXT_SPRINT_NUMBER</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEXT_SPRINT_NUMBER</CMPNAME>
+     <SCONAME>RV_SPRINT_NUMBER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NEXT_SPRINT_TEAM_ID</CMPNAME>
+     <SCONAME>RV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

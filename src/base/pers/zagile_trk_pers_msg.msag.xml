@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Agile Tracker Message Class for Persistant Messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Insert record into persona table failed for persona &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Update record in persona table failed for persona &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Delete record from persona table failed for persona &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Insert record into person table failed for person id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Update record in person table failed for person id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Delete record from person table failed for person id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Insert record into project table failed for project id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Update record in project table failed for project id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Delete record from project table failed for project id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Insert record into sprint team table failed for sprint team id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Update record in sprint team table failed for sprint team id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Delete record from sprint team table failed for sprint team id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Insert rec into sprt tm per failed: sprt tm &amp;1 person &amp;2 persona &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Update rec in sprt tm per failed: sprt tm &amp;1 person &amp;2 persona &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Delete rec from sprt tm per failed: sprt tm &amp;1 person &amp;2 persona &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Insert rec into sprint table failed: proj id &amp;1 sprt tm id &amp;2 sprt num &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Update rec in sprint table  failed: proj id &amp;1 sprt tm id &amp;2 sprt num &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Delete rec from sprint table failed: proj id &amp;1 sprt tm id &amp;2 sprt num &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Persona record does not exist with persona &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Person record does not exist with person ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Project record does not exist with project ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Sprint Team record does not exist with sprint team ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Sprt Team Pers rec not exists with sprttm ID &amp;1 person ID &amp;1 persona &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Sprt Team Pers rec not exists with sprttm ID &amp;1 person ID &amp;1 persona &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Sprint rec does not exists with project ID &amp;1 sprttm ID &amp;2 sprint num &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Person DAO object is not bound to reference variable</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Project DAO object is not bound to reference variable</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Sprint DAO object is not bound to reference variable</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Sprint Team DAO object is not bound to reference variable</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Data Check object is not bound to reference variable</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Could not determine the table name from the importing record</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Table &amp;1 has no defined validation class</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>BRF+ call failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Validation Class &amp;1 has no defined DAO default class(es)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Validation fail: No persona rec exists for persona &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Validation fail: Persona rec already exists for persona &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Validation fail: No person rec exists for person ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Validation fail: Person rec already exists for person ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Validation fail: No project rec exists for project ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Validation fail: Project rec already exists for project ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Validation fail: No sprint team rec exists for sprint team ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Validation fail: Sprint team rec already exists for sprint team ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Validation fail: No sprper rec exists for sprttm ID &amp;1 per ID &amp;2 persa &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Validation fail: Sprper rec exists for sprttm ID &amp;1 per ID &amp;2 persa &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Validation fail: No sprint rec exists for projID &amp;1 sprttm ID &amp;2 spnum &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAGILE_TRK_PERS_MSG</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Validation fail: Sprint rec exists for proj ID &amp;1 sprttm ID &amp;2 spnum &amp;3</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

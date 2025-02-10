@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AGILE_TRK_SPRINT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Sprint Domain Model for Agile Tracker Application</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Unit Test aborted due to test record already existing in Sprint Team Persona table</ENTRY>
+     <LENGTH>112</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>The returning reference variable is not bound to an object as expected</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>The error message did not contain the expected value.</ENTRY>
+     <LENGTH>83</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>An exception was raised but should not have been</ENTRY>
+     <LENGTH>73</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>An exception should have been raised but was not</ENTRY>
+     <LENGTH>73</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>The expected value does not match the actual value</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Unit Test aborted due to test record already existing in Sprint Team table</ENTRY>
+     <LENGTH>104</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>Unit Test aborted due to test record already existing in Project table</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_SPRINT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create a new sprint record return the object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Retrieve an instance of the sprint object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SPRINT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the sprint record for the instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DAO_PROJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Project Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DAO_SPRINT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sprint DAO Interface for Example Agile App</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_AGL_SPRINT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_SPRINT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update an existing sprint record</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_DAO_PROJECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Project Data Access Object Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_DAO_SPRINT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sprint DAO Interface for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IS_AGL_SPRINT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SPRINT</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SPRINT</CMPNAME>
+     <SCONAME>IV_SPRINT_BEGIN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Begin Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SPRINT</CMPNAME>
+     <SCONAME>IV_SPRINT_DESC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agle Sprint Description</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SPRINT</CMPNAME>
+     <SCONAME>IV_SPRINT_END</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint End Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SPRINT</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_SPRINT</CMPNAME>
+     <SCONAME>RO_OBJECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sprint Domain Model for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_PROJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Project ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_SPRINT_NUMBER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_SPRINT_TEAM_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Team ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_OBJECT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sprint Domain Model for Example Agile App</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SPRINT</CMPNAME>
+     <SCONAME>RS_AGL_SPRINT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_SPRINT</CMPNAME>
+     <SCONAME>IV_SPRINT_BEGIN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint Begin Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_SPRINT</CMPNAME>
+     <SCONAME>IV_SPRINT_DESC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agle Sprint Description</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_SPRINT</CMPNAME>
+     <SCONAME>IV_SPRINT_END</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Example Agile Sprint End Date</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
